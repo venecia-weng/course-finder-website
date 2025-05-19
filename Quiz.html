@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Personality Quiz</title>
+  <style media="screen">
+  footer {
+    text-align: center;
+  }
+  </style>
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="Quiz.css">
+</head>
+
+<body>
+  <link rel="stylesheet" href="menuBar.css">
+  <!--menu bar -->
+  <div class="topnav" id="myTopnav">
+    <a href="LoginPage.html">Logout</a>
+    <a href="HomePage.html" class="active">Home</a>
+    <a href="CourseList.html">Courses</a>
+    <a href="feedbackform.html">Feedback</a>
+    <a href="Quiz.html">Take Quiz</a>
+    <a href="about.html">About</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <div class="quiz-container">
+    <div class="title">Personality Quiz</div>
+    <div id="question" class="question"></div>
+    <label class="option">
+      <input type="radio" name="option" value="1" />
+      <span class="option1"></span>
+    </label>
+    <label class="option">
+      <input type="radio" name="option" value="2" />
+      <span class="option2"></span>
+    </label>
+    <label class="option">
+      <input type="radio" name="option" value="3" />
+      <span class="option3"></span>
+    </label>
+    <!-- Buttons -->
+    <div class="controls">
+      <button class="previous">Previous</button>
+      <button class="next">Next</button>
+    </div>
+  </div>
+
+  <div class="result">
+
+  </div>
+  <script src="Quiz.js"></script>
+
+  <footer>&copy; DreamCourse 2021</footer>
+</body>
+
+</html>

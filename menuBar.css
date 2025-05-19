@@ -1,0 +1,45 @@
+.logout {
+  float: right;
+  color: gray;
+  display: block;
+  text-align: center;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding: 6px;
+  font-family: monospace;
+}
+
+/* Add a white background color to the top navigation */
+.topnav {
+  background-color: #FFFFFF;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  display: block;
+  color:black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: monospace;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: gray;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #EBE3DD;
+  color: black;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
